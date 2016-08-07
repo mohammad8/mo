@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc');
+define('BOT_TOKEN', '198815048:AAFSamb6uqW8u5b4OII0CShFc6TVaaf78qk');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 69367395;
+    $admin = 115887468;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,7 +132,7 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-کانلا ما  👈        [PmResan_RBot](https://telegram.me/joinchat/CgbG0D8Xz4hkgPCXeZcD0g)
+کانلا ما  👈         [gogolipmbot](https://telegram.m/gogoliteam)
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
