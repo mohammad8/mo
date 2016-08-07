@@ -1,6 +1,6 @@
 <?php
-define('BOT_TOKEN', '**TOKEN**');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('BOT_TOKEN', '212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc');
+define('API_URL', 'https://api.telegram.org/bot'212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc'/');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
@@ -115,7 +115,7 @@ function processMessage($message) {
   // process incoming message
   $boolean = file_get_contents('booleans.txt');
   $booleans= explode("\n",$boolean);
-  $admin = **ADMIN**;
+  $admin = 163402568;
   $message_id = $message['message_id'];
   $rpto = $message['reply_to_message']['forward_from']['id'];
   $chat_id = $message['chat']['id'];
@@ -591,7 +591,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
         
       if($chat_id!=$admin){
       apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=>$pmembersiddd[0] ,"parse_mode"=>"HTML"));
- apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=> '[ربات پیام رسان خود را بسازید](https://telegram.me/joinchat/CgbG0D8Xz4hkgPCXeZcD0g)' ,"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+ apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=> '[ربات پیام رسان خود را بسازید](https://telegram.me/joinchat/pmresan3azbot)' ,"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 $txxt = file_get_contents('pmembers.txt');
 $pmembersid= explode("\n",$txxt);
