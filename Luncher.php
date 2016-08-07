@@ -228,7 +228,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
+ https://telegram.me/storebot?start=gogolipmbot
 .";
     
     $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
@@ -312,7 +312,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
+ https://telegram.me/storebot?start=gogolipmbot
 .";
     
     $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
@@ -342,7 +342,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @mbmahdii"));
       }
 
     }
