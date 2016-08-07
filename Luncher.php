@@ -1,7 +1,7 @@
 <?php
 
-define('BOT_TOKEN', '212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('BOT_TOKEN', '266764297:AAGP1l9rTxhwOJWyL4ZNCg6trzPXeIm6gcw');
+define('API_URL', 'https://api.telegram.org/bot'266764297:AAGP1l9rTxhwOJWyL4ZNCg6trzPXeIm6gcw'/');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
@@ -132,11 +132,10 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-کانلا ما  👈        [PmResan_RBot](https://telegram.me/joinchat/CgbG0D8Xz4hkgPCXeZcD0g)
 
 🔹هر نفر = یک ربات ✖️
-🔸ربات دوم = 5000ت ✔️
-🤖 @PmResan_RBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🔸ربات دوم = 1000 ت✔️
+🤖 @pmresan3azbot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('members.txt');
@@ -190,7 +189,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات 
 
     }
     }
-    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 69367395) {
+    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 167421305) {
       if (strpos($text, ":")) {
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال برسی 🔃"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
@@ -224,14 +223,12 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://pmresanrobot-pmresanrobot.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://pmresansaz-mohdsfs.rhcloud.com//'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
-به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc/"; 
+    $bot_url    = "https://api.telegram.org/bot266764297:AAGP1l9rTxhwOJWyL4ZNCg6trzPXeIm6gcw/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -260,10 +257,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 🔹هر نفر = یک ربات ✖️
-🔸ربات دوم = 5000ت ✔️
+🔸ربات دوم = 1000ت ️✅
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @mohammad_poker"));
       }
     }
       
@@ -308,14 +305,12 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://pmresanrobot-pmresanrobot.rhcloud.com//'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://pmresansaz-mohdsfs.rhcloud.com//'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
-به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc/"; 
+    $bot_url    = "https://api.telegram.org/bot266764297:AAGP1l9rTxhwOJWyL4ZNCg6trzPXeIm6gcw/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -339,10 +334,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 🔹هر نفر = یک ربات ✖️
-🔸ربات دوم = 5000ت ✔️
+🔸ربات دوم = 1000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @mohammad_poker"));
       }
 
     }
