@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc');
+define('BOT_TOKEN', '212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 69367395;
+    $admin = 115887468;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -231,7 +231,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
+    $bot_url    = "https://api.telegram.org/212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -315,7 +315,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc/"; 
+    $bot_url    = "https://api.telegram.org/bot212563126:AAHjm5uadcaaXHvk0IAcvmdVs7FaEMxU1Mc/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
